@@ -1,0 +1,30 @@
+{
+    "name": "ghepes/stripe-integrations-wp",
+    "description": "Wordpress plugin to integrate stripe products dinamic with incorporate",
+    "authors": [
+            {
+                "name": "Ghepes"
+            }
+        ],
+        "used frameworks": [
+            "stripe-php",
+            "php-cs-fixer",
+            "phpstan",
+            "phpunit"
+        ],
+   
+    "keywords": [
+        "stripe",
+        "plugins",
+        "wordpress"
+    ],
+    "type": "project",
+    "require": {
+        "stripe/stripe-php": "^16.6"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.71",
+        "phpstan/phpstan": "^2.1",
+        "phpunit/phpunit": "^10.5"
+    }
+}
