@@ -1,4 +1,4 @@
-# stripe-integrations-wp-wp
+# stripe-integrations-wp
 stripe integrations wp with integrate checkout
 
 ### Steps Include into plugin
