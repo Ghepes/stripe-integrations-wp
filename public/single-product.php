@@ -163,7 +163,7 @@ try {
             headers: {
                 'Content-Type': 'application/x-www-form-urlencoded',
             },
-            body: 'action=stripe_add_to_cart&amp;product_id=' + encodeURIComponent(productId),
+            body: 'action=stripe_add_to_cart>product_id=' + encodeURIComponent(productId),
         })
         .then(response => response.json())
         .then(data => {
@@ -174,6 +174,10 @@ try {
             }
         });
     }
+    </script>
+</body>
+</html>
+
     </script>
 </body>
 </html>
